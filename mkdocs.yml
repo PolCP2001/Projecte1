@@ -1,0 +1,23 @@
+site_name: Projecte 1 - Sprint 2
+nav:
+  - Home: index.md
+  - Fitxers importants: imp_files.md
+  - Gestió d'usuaris: user_gest.md
+  - Gestió de processos: proc_gest.md
+  - Permisos especials i ACLs: special_perm.md
+  - Aplicació de permisos especials i ACLs: sp_use.md
+  - Sistema de fitxers: file_sys.md
+  - Gestió de particions i compartició de recursos: share_src.md
+  - Còpies de Seguretat i Automatitzacions de Tasques: autotask.md
+  - Quotes per a usuaris i grups: quotes.md
+
+theme:
+  name: material
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
